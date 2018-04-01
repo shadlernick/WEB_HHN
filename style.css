@@ -1,0 +1,101 @@
+div{
+	display:block;
+}
+p{
+	text-indent: 20px;
+	text-align: justify;
+}
+.authors{
+	color:red;
+}
+.logo img{
+	height:10%;
+}
+.header{
+	/*border:2px solid red;*/
+	height:370px;
+	width:380px;
+	margin:0 auto;
+	position:relative;
+}
+/*.scroll{
+	width:100%;
+    max-height: 900px; /*Высота блока после которой начнется прокрутка*/
+ /*   display: inline-block;
+    overflow-x: hidden; /*непосредственно прокрутка*/
+/*    margin: 0 -3px;
+    padding-top: 1px;
+	padding-left: 5px;
+}*/
+body{
+	background:url("img/bodyback2.jpg") no-repeat;
+	background-attachment:fixed;
+	display:block;
+}
+.header .logo{
+	/*border:2px solid black;*/
+	margin:0 auto;	
+}
+.header .BlogName{
+	/*border:2px solid black;*/
+	font-family:Arial;
+	text-align:center;
+}
+.content{
+	border:2px groove red;
+	width:50%;
+	/*height:50%;*/
+	margin: 0 auto;
+}
+.content .scroll ul{
+	padding-left:2%;
+	padding-right:2%;
+}
+.content .scroll ul li{
+	list-style-type:none;
+	border-bottom:2px solid black;
+}
+.content .scroll ul li:last-child{
+	border-bottom:none;
+}
+.content .news{
+	text-align:center;
+}
+.content .news .data{
+	/*border:2px solid black;*/
+	text-align:center;
+}
+.content .news .data h5{
+	margin-top:0;
+	margin-bottom:0;
+	/*border:1px solid red;*/
+}
+.content .news .incontent{
+	text-align:left;
+}
+.photo img{
+	/*border:2px black solid;*/
+	margin:0 auto;
+	width: 75%;
+}
+.content .news .nheader h1{
+	color:red;
+	font-family:Consolas;
+	/*border:2px solid black; */
+}
+.content .news .nheader{
+	/*border:2px solid red;*/
+}
+.footer{
+	/*border:2px solid red;*/
+	text-align:center;
+}
+.list li{
+	border-right: 1px solid black;
+	padding-right: 10px;
+	padding-left: 10px;
+	display:inline;
+}
+.list li:last-child{
+	border-right:none;
+}
